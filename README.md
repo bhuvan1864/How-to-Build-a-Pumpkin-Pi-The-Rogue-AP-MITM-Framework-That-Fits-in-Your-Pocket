@@ -27,6 +27,14 @@ The setup to create a WiFi-Pumpkin is minimal and requires only a few components
 
 ![prerequisites](https://user-images.githubusercontent.com/67831210/96422281-7155e580-1215-11eb-9bb7-3b9984a6c581.jpg)
 
+I personally use a Raspberry Pi 3 B+ as it's got a large Developer Community
+
+![Raspberry pi 3 B+](https://user-images.githubusercontent.com/67831210/96428456-68691200-121d-11eb-852d-45f7087ec5c1.jpg)
+
+Now fire up your Kali machine terminal and follow the provided steps below
+
+![Screenshot from 2020-10-19 05-36-48](https://user-images.githubusercontent.com/67831210/96428326-440d3580-121d-11eb-89db-131faa09ca07.png)
+
 
 
 # Installing & Running WiFi-Pumpkin (Kali Linux)
