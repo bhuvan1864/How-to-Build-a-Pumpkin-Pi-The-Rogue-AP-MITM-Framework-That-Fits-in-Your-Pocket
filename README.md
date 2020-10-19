@@ -95,7 +95,7 @@ Keep in mind, in order for WiFi-Pumpkin to work, you will need to have access to
 
 You can achieve this by using one wireless network adapter and your Pi's internal Wi-Fi card in tandem or a wired Ethernet connection and one wireless network adapter. In the case your particular Pi isn't Wi-Fi capable, you'll need two wireless network adapters. If you are unsure if the wireless adapter you have supports AP/Monitor mode, you can check in terminal with iw list. If there is an "AP" in the list of "Supported interface modes," then your device supports it.
 
-if you are not familiar with WiFi-pumpkin or you got stuck in between...worry not amigo I'll add in a link for you, you can refer this video where the entire process is demonstrated in detail.
+If you are not familiar with WiFi-pumpkin or you got stuck in between...worry not amigo I'll add in a link for you, you can refer this video where the entire process is demonstrated in detail.
 
 https://www.youtube.com/watch?v=tIM-kdmKhnE&feature=emb_logo
 
