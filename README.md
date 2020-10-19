@@ -16,7 +16,7 @@ The name of your network will have a significant effect on how people interact w
 # What You'll Need to Get Started
 The setup to create a WiFi-Pumpkin is minimal and requires only a few components. To put this together, you'll need the following.
 
-* wireless network adapter
+* Kali compatible wireless network adapter
 
 * Ethernet cable
 
@@ -24,13 +24,13 @@ The setup to create a WiFi-Pumpkin is minimal and requires only a few components
 
 * microSD card
 
-* power source
+* Power source
 
 * USB keyboard/mouse interface
 
 * SD card adapter
 
-* laptop to load files on the SD card
+* Laptop to load files on the SD card
 
 ![prerequisites](https://user-images.githubusercontent.com/67831210/96422281-7155e580-1215-11eb-9bb7-3b9984a6c581.jpg)
 
@@ -94,6 +94,10 @@ You're ready to get started creating fake APs!
 Keep in mind, in order for WiFi-Pumpkin to work, you will need to have access to at least one Kali Linux compatible wireless adapter with AP/Monitor mode support. You will need your Pi to be connected to the internet while also capable of monitoring wireless traffic around you.
 
 You can achieve this by using one wireless network adapter and your Pi's internal Wi-Fi card in tandem or a wired Ethernet connection and one wireless network adapter. In the case your particular Pi isn't Wi-Fi capable, you'll need two wireless network adapters. If you are unsure if the wireless adapter you have supports AP/Monitor mode, you can check in terminal with iw list. If there is an "AP" in the list of "Supported interface modes," then your device supports it.
+
+if you are not familiar with WiFi-pumpkin or you got stuck in between...worry not amigo I'll add in a link for you, you can refer this video where the entire process is demonstrated in detail.
+
+https://www.youtube.com/watch?v=tIM-kdmKhnE&feature=emb_logo
 
 
 Until next time...
