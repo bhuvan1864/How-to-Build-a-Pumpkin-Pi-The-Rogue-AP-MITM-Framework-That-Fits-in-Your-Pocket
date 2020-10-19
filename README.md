@@ -1,4 +1,4 @@
-# How-to-Build-a-Pumpkin-Pi-The-Rogue-AP-MITM-Framework-That-Fits-in-Your-Pocket
+# How to Build a Pumpkin-Pi:The-Rogue AP-MITM-Framework that fits in your pocket
 
 A man-in-the-middle attack places you between your target and the internet, pretending to be a Wi-Fi network while secretly inspecting every packet that flows through the connection. The WiFi-Pumpkin is a rogue AP framework to easily create these fake networks, all while forwarding legitimate traffic to and from the unsuspecting target.
 
