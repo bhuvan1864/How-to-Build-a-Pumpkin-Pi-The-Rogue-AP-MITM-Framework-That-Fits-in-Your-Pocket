@@ -32,46 +32,46 @@ The setup to create a WiFi-Pumpkin is minimal and requires only a few components
 # Installing & Running WiFi-Pumpkin (Kali Linux)
 As before any new install, ensure that your system is fully updated. WiFi-Pumpkin will require that you have an up-to-date Python installed on your machine.
 
-  # sudo apt-get update
+    sudo apt-get update
 
 WiFi-Pumpkin has a number of dependencies you will need to have installed before it can run smoothly. Install the following if you don't already have them on your Kali-Pi.
 
 # Step 1: Install Dependencies
 Python's package manager, Pip, will help us manage the rest of the installation. To install it on Kali Linux, run the following commands.
 
-  # sudo apt-get install -y python-pip
+    sudo apt-get install -y python-pip
 
 The next three dependencies will allow WiFi-Pumpkin to verify certificates, add HTTP layer support, and intercept and inspect traffic flows. Install each as shown below.
 
-  # pip install service_identity
+    pip install service_identity
 
-  # pip install scapy_http
+    pip install scapy_http
 
-  # sudo apt-get install mitmproxy
+    sudo apt-get install mitmproxy
   
 # Step 2: Install WiFi-Pumpkin
 Download WiFi-Pumpkin by cloning the GitHub repository:
 
-  # git clone https://github.com/P0cL4bs/WiFi-Pumpkin.git
+    git clone https://github.com/P0cL4bs/WiFi-Pumpkin.git
   
 Now change directory to the downloaded folder
 
-  # cd WiFi-Pumpkin
+    cd WiFi-Pumpkin
   
 And change the permission of the installer file:
 
-  # chmod +x installer.sh
+    chmod +x installer.sh
   
 And then run the installer by entering the following.
 
-  # ./installer.sh --install
+    ./installer.sh --install
   
 This may take a little time, during which you can go grab some tea..../
 
 # Step 3: Run WiFi-Pumpkin
 When it's complete, run WiFi-Pumpkin by simply entering the following.
 
-  # sudo wifi-pumpkin
+    sudo wifi-pumpkin
 
 You're ready to get started creating fake APs!
 
@@ -79,6 +79,11 @@ You're ready to get started creating fake APs!
 Keep in mind, in order for WiFi-Pumpkin to work, you will need to have access to at least one Kali Linux compatible wireless adapter with AP/Monitor mode support. You will need your Pi to be connected to the internet while also capable of monitoring wireless traffic around you.
 
 You can achieve this by using one wireless network adapter and your Pi's internal Wi-Fi card in tandem or a wired Ethernet connection and one wireless network adapter. In the case your particular Pi isn't Wi-Fi capable, you'll need two wireless network adapters. If you are unsure if the wireless adapter you have supports AP/Monitor mode, you can check in terminal with iw list. If there is an "AP" in the list of "Supported interface modes," then your device supports it.
+
+
+Until next time...
+
+-B
 
   
   
