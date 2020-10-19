@@ -16,14 +16,21 @@ The name of your network will have a significant effect on how people interact w
 # What You'll Need to Get Started
 The setup to create a WiFi-Pumpkin is minimal and requires only a few components. To put this together, you'll need the following.
 
-*wireless network adapter
-*Ethernet cable
-*Raspberry Pi 3 or 3 B+
-*microSD card
-*power source
-*USB keyboard/mouse interface
-*SD card adapter
-*laptop to load files on the SD card
+ wireless network adapter
+
+ Ethernet cable
+
+ Raspberry Pi 3 or 3 B+
+
+ microSD card
+
+ power source
+
+ USB keyboard/mouse interface
+
+ SD card adapter
+
+ laptop to load files on the SD card
 
 ![prerequisites](https://user-images.githubusercontent.com/67831210/96422281-7155e580-1215-11eb-9bb7-3b9984a6c581.jpg)
 
